@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD21FA561523AFBD0081BFE8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD21FA551523AFBD0081BFE8 /* QuartzCore.framework */; };
+		DD21FA5A1523B68C0081BFE8 /* TiledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD21FA591523B68C0081BFE8 /* TiledViewController.m */; };
+		DD21FA5C1523B6C70081BFE8 /* nintendo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD21FA5B1523B6C70081BFE8 /* nintendo.jpg */; };
+		DD21FA5F1523B7150081BFE8 /* TiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD21FA5E1523B7150081BFE8 /* TiledView.m */; };
+		DD21FA7C1523C8DE0081BFE8 /* WatermarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD21FA7B1523C8DE0081BFE8 /* WatermarkViewController.m */; };
+		DD21FA7E1523CC9A0081BFE8 /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = DD21FA7D1523CC9A0081BFE8 /* watermark.png */; };
+		DD5727461523E7520049B25F /* monalisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD5727451523E7520049B25F /* monalisa.jpg */; };
+		DDE7B17E152398570096C8C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE7B17D152398570096C8C1 /* UIKit.framework */; };
+		DDE7B180152398570096C8C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE7B17F152398570096C8C1 /* Foundation.framework */; };
+		DDE7B182152398570096C8C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE7B181152398570096C8C1 /* CoreGraphics.framework */; };
+		DDE7B188152398570096C8C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDE7B186152398570096C8C1 /* InfoPlist.strings */; };
+		DDE7B18A152398570096C8C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B189152398570096C8C1 /* main.m */; };
+		DDE7B18E152398570096C8C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B18D152398570096C8C1 /* AppDelegate.m */; };
+		DDE7B19C1523997B0096C8C1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B19B1523997B0096C8C1 /* TableViewController.m */; };
+		DDE7B19F15239B700096C8C1 /* DrawRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B19E15239B700096C8C1 /* DrawRectViewController.m */; };
+		DDE7B1A215239C1E0096C8C1 /* DrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B1A115239C1E0096C8C1 /* DrawRectView.m */; };
+		DDE7B1A815239F540096C8C1 /* ResponsiveDrawRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B1A715239F540096C8C1 /* ResponsiveDrawRectViewController.m */; };
+		DDE7B1AB15239F8E0096C8C1 /* ResponsiveDrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B1AA15239F8E0096C8C1 /* ResponsiveDrawRectView.m */; };
+		DDE7B1B11523A6D70096C8C1 /* dots.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDE7B1B01523A6D70096C8C1 /* dots.jpg */; };
+		DDE7B1B51523A7B20096C8C1 /* AdvancedDrawRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B1B41523A7B20096C8C1 /* AdvancedDrawRectViewController.m */; };
+		DDE7B1B81523A7E90096C8C1 /* AdvancedDrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE7B1B71523A7E90096C8C1 /* AdvancedDrawRectView.m */; };
+		DDE7B1BA1523A8A30096C8C1 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE7B1B91523A8A30096C8C1 /* star.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD21FA551523AFBD0081BFE8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD21FA581523B68C0081BFE8 /* TiledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledViewController.h; sourceTree = "<group>"; };
+		DD21FA591523B68C0081BFE8 /* TiledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledViewController.m; sourceTree = "<group>"; };
+		DD21FA5B1523B6C70081BFE8 /* nintendo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nintendo.jpg; sourceTree = "<group>"; };
+		DD21FA5D1523B7150081BFE8 /* TiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledView.h; sourceTree = "<group>"; };
+		DD21FA5E1523B7150081BFE8 /* TiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledView.m; sourceTree = "<group>"; };
+		DD21FA7A1523C8DE0081BFE8 /* WatermarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatermarkViewController.h; sourceTree = "<group>"; };
+		DD21FA7B1523C8DE0081BFE8 /* WatermarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatermarkViewController.m; sourceTree = "<group>"; };
+		DD21FA7D1523CC9A0081BFE8 /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark.png; sourceTree = "<group>"; };
+		DD5727451523E7520049B25F /* monalisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monalisa.jpg; sourceTree = "<group>"; };
+		DDE7B179152398570096C8C1 /* CG Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CG Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE7B17D152398570096C8C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDE7B17F152398570096C8C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDE7B181152398570096C8C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDE7B185152398570096C8C1 /* CG Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CG Demo-Info.plist"; sourceTree = "<group>"; };
+		DDE7B187152398570096C8C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDE7B189152398570096C8C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE7B18B152398570096C8C1 /* CG Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CG Demo-Prefix.pch"; sourceTree = "<group>"; };
+		DDE7B18C152398570096C8C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDE7B18D152398570096C8C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDE7B19A1523997B0096C8C1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DDE7B19B1523997B0096C8C1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DDE7B19D15239B700096C8C1 /* DrawRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectViewController.h; sourceTree = "<group>"; };
+		DDE7B19E15239B700096C8C1 /* DrawRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectViewController.m; sourceTree = "<group>"; };
+		DDE7B1A015239C1E0096C8C1 /* DrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectView.h; sourceTree = "<group>"; };
+		DDE7B1A115239C1E0096C8C1 /* DrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectView.m; sourceTree = "<group>"; };
+		DDE7B1A615239F540096C8C1 /* ResponsiveDrawRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponsiveDrawRectViewController.h; sourceTree = "<group>"; };
+		DDE7B1A715239F540096C8C1 /* ResponsiveDrawRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponsiveDrawRectViewController.m; sourceTree = "<group>"; };
+		DDE7B1A915239F8E0096C8C1 /* ResponsiveDrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponsiveDrawRectView.h; sourceTree = "<group>"; };
+		DDE7B1AA15239F8E0096C8C1 /* ResponsiveDrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponsiveDrawRectView.m; sourceTree = "<group>"; };
+		DDE7B1B01523A6D70096C8C1 /* dots.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dots.jpg; sourceTree = "<group>"; };
+		DDE7B1B31523A7B20096C8C1 /* AdvancedDrawRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedDrawRectViewController.h; sourceTree = "<group>"; };
+		DDE7B1B41523A7B20096C8C1 /* AdvancedDrawRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedDrawRectViewController.m; sourceTree = "<group>"; };
+		DDE7B1B61523A7E90096C8C1 /* AdvancedDrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedDrawRectView.h; sourceTree = "<group>"; };
+		DDE7B1B71523A7E90096C8C1 /* AdvancedDrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedDrawRectView.m; sourceTree = "<group>"; };
+		DDE7B1B91523A8A30096C8C1 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE7B176152398570096C8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE7B182152398570096C8C1 /* CoreGraphics.framework in Frameworks */,
+				DDE7B180152398570096C8C1 /* Foundation.framework in Frameworks */,
+				DD21FA561523AFBD0081BFE8 /* QuartzCore.framework in Frameworks */,
+				DDE7B17E152398570096C8C1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD21FA571523B6770081BFE8 /* Advanced #2 */ = {
+			isa = PBXGroup;
+			children = (
+				DD21FA581523B68C0081BFE8 /* TiledViewController.h */,
+				DD21FA591523B68C0081BFE8 /* TiledViewController.m */,
+				DD21FA5D1523B7150081BFE8 /* TiledView.h */,
+				DD21FA5E1523B7150081BFE8 /* TiledView.m */,
+				DD21FA5B1523B6C70081BFE8 /* nintendo.jpg */,
+			);
+			name = "Advanced #2";
+			sourceTree = "<group>";
+		};
+		DD21FA791523C8CA0081BFE8 /* Basic #3 */ = {
+			isa = PBXGroup;
+			children = (
+				DD21FA7A1523C8DE0081BFE8 /* WatermarkViewController.h */,
+				DD21FA7B1523C8DE0081BFE8 /* WatermarkViewController.m */,
+				DD21FA7D1523CC9A0081BFE8 /* watermark.png */,
+			);
+			name = "Basic #3";
+			sourceTree = "<group>";
+		};
+		DD21FA7F1523CFB20081BFE8 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B1AE1523A4EE0096C8C1 /* Basic #1 */,
+				DDE7B1AF1523A4F70096C8C1 /* Basic #2 */,
+				DD21FA791523C8CA0081BFE8 /* Basic #3 */,
+				DDE7B1B21523A77E0096C8C1 /* Advanced #1 */,
+				DD21FA571523B6770081BFE8 /* Advanced #2 */,
+			);
+			name = Demos;
+			sourceTree = "<group>";
+		};
+		DDE7B16E152398570096C8C1 = {
+			isa = PBXGroup;
+			children = (
+				DDE7B183152398570096C8C1 /* CG Demo */,
+				DDE7B17C152398570096C8C1 /* Frameworks */,
+				DDE7B17A152398570096C8C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE7B17A152398570096C8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B179152398570096C8C1 /* CG Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE7B17C152398570096C8C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B181152398570096C8C1 /* CoreGraphics.framework */,
+				DDE7B17F152398570096C8C1 /* Foundation.framework */,
+				DD21FA551523AFBD0081BFE8 /* QuartzCore.framework */,
+				DDE7B17D152398570096C8C1 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE7B183152398570096C8C1 /* CG Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B18C152398570096C8C1 /* AppDelegate.h */,
+				DDE7B18D152398570096C8C1 /* AppDelegate.m */,
+				DDE7B19A1523997B0096C8C1 /* TableViewController.h */,
+				DDE7B19B1523997B0096C8C1 /* TableViewController.m */,
+				DD21FA7F1523CFB20081BFE8 /* Demos */,
+				DDE7B184152398570096C8C1 /* Supporting Files */,
+			);
+			path = "CG Demo";
+			sourceTree = "<group>";
+		};
+		DDE7B184152398570096C8C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B185152398570096C8C1 /* CG Demo-Info.plist */,
+				DDE7B186152398570096C8C1 /* InfoPlist.strings */,
+				DDE7B189152398570096C8C1 /* main.m */,
+				DDE7B18B152398570096C8C1 /* CG Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE7B1AE1523A4EE0096C8C1 /* Basic #1 */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B19D15239B700096C8C1 /* DrawRectViewController.h */,
+				DDE7B19E15239B700096C8C1 /* DrawRectViewController.m */,
+				DDE7B1A015239C1E0096C8C1 /* DrawRectView.h */,
+				DDE7B1A115239C1E0096C8C1 /* DrawRectView.m */,
+				DDE7B1B01523A6D70096C8C1 /* dots.jpg */,
+			);
+			name = "Basic #1";
+			sourceTree = "<group>";
+		};
+		DDE7B1AF1523A4F70096C8C1 /* Basic #2 */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B1A615239F540096C8C1 /* ResponsiveDrawRectViewController.h */,
+				DDE7B1A715239F540096C8C1 /* ResponsiveDrawRectViewController.m */,
+				DDE7B1A915239F8E0096C8C1 /* ResponsiveDrawRectView.h */,
+				DDE7B1AA15239F8E0096C8C1 /* ResponsiveDrawRectView.m */,
+			);
+			name = "Basic #2";
+			sourceTree = "<group>";
+		};
+		DDE7B1B21523A77E0096C8C1 /* Advanced #1 */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7B1B31523A7B20096C8C1 /* AdvancedDrawRectViewController.h */,
+				DDE7B1B41523A7B20096C8C1 /* AdvancedDrawRectViewController.m */,
+				DDE7B1B61523A7E90096C8C1 /* AdvancedDrawRectView.h */,
+				DDE7B1B71523A7E90096C8C1 /* AdvancedDrawRectView.m */,
+				DDE7B1B91523A8A30096C8C1 /* star.png */,
+				DD5727451523E7520049B25F /* monalisa.jpg */,
+			);
+			name = "Advanced #1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE7B178152398570096C8C1 /* CG Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE7B197152398570096C8C1 /* Build configuration list for PBXNativeTarget "CG Demo" */;
+			buildPhases = (
+				DDE7B175152398570096C8C1 /* Sources */,
+				DDE7B176152398570096C8C1 /* Frameworks */,
+				DDE7B177152398570096C8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CG Demo";
+			productName = "CG Demo";
+			productReference = DDE7B179152398570096C8C1 /* CG Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE7B170152398570096C8C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "MapBox / Development Seed";
+			};
+			buildConfigurationList = DDE7B173152398570096C8C1 /* Build configuration list for PBXProject "CG Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDE7B16E152398570096C8C1;
+			productRefGroup = DDE7B17A152398570096C8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE7B178152398570096C8C1 /* CG Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE7B177152398570096C8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE7B188152398570096C8C1 /* InfoPlist.strings in Resources */,
+				DDE7B1B11523A6D70096C8C1 /* dots.jpg in Resources */,
+				DDE7B1BA1523A8A30096C8C1 /* star.png in Resources */,
+				DD21FA5C1523B6C70081BFE8 /* nintendo.jpg in Resources */,
+				DD21FA7E1523CC9A0081BFE8 /* watermark.png in Resources */,
+				DD5727461523E7520049B25F /* monalisa.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE7B175152398570096C8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE7B18A152398570096C8C1 /* main.m in Sources */,
+				DDE7B18E152398570096C8C1 /* AppDelegate.m in Sources */,
+				DDE7B19C1523997B0096C8C1 /* TableViewController.m in Sources */,
+				DDE7B19F15239B700096C8C1 /* DrawRectViewController.m in Sources */,
+				DDE7B1A215239C1E0096C8C1 /* DrawRectView.m in Sources */,
+				DDE7B1A815239F540096C8C1 /* ResponsiveDrawRectViewController.m in Sources */,
+				DDE7B1AB15239F8E0096C8C1 /* ResponsiveDrawRectView.m in Sources */,
+				DDE7B1B51523A7B20096C8C1 /* AdvancedDrawRectViewController.m in Sources */,
+				DDE7B1B81523A7E90096C8C1 /* AdvancedDrawRectView.m in Sources */,
+				DD21FA5A1523B68C0081BFE8 /* TiledViewController.m in Sources */,
+				DD21FA5F1523B7150081BFE8 /* TiledView.m in Sources */,
+				DD21FA7C1523C8DE0081BFE8 /* WatermarkViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDE7B186152398570096C8C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE7B187152398570096C8C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE7B195152398570096C8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDE7B196152398570096C8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE7B198152398570096C8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CG Demo/CG Demo-Prefix.pch";
+				INFOPLIST_FILE = "CG Demo/CG Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDE7B199152398570096C8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CG Demo/CG Demo-Prefix.pch";
+				INFOPLIST_FILE = "CG Demo/CG Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE7B173152398570096C8C1 /* Build configuration list for PBXProject "CG Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE7B195152398570096C8C1 /* Debug */,
+				DDE7B196152398570096C8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE7B197152398570096C8C1 /* Build configuration list for PBXNativeTarget "CG Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE7B198152398570096C8C1 /* Debug */,
+				DDE7B199152398570096C8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE7B170152398570096C8C1 /* Project object */;
+}
